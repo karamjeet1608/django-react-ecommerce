@@ -1,0 +1,55 @@
+# to create python environment
+
+    pipenv shell
+
+# to activate python environment
+
+    pipenv shell
+
+# to deactivate python environment
+
+    exit
+
+# to install django in the environment
+
+    pipenv install Django
+
+# to create django project
+
+    django-admin startproject ecommerceAPIs
+
+# to create products app in django project
+
+    django-admin startapp product
+
+# to install postgres fb connector (ORM) in django project
+
+    pipenv install psycopg2
+
+# to install pillow in django project
+
+    pipenv install pillow
+
+# to install django restframework in django project
+
+    pipenv install djangorestframework
+
+# to install corsheaders in django project
+
+    pipenv install django-cors-headers
+
+# to create superuser in django project
+
+    python manage.py createsuperuser
+
+# to install flake8 in django project
+
+    pipenv install flake8
+
+# to use black code formatter to format all the files in the directory.
+    
+    black product/
+
+# to generate list of packages for requirement.txt file.
+   
+   pipenv requirements

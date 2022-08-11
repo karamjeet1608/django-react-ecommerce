@@ -1,0 +1,89 @@
+	Django ecommerce API
+		setup python environment  ==> DONE
+		install required packages ==> DONE
+		setup django project ==> DONE
+		setup django product app ==> DONE
+		setup postgres db ==> DONE
+		
+		USER
+			setup django USER app ==> DONE
+			add USER models ==> DONE
+			add USER serializers ==> DONE
+			add USER view ==> Inprogress
+				register user ==> DONE
+				login user ==> DONE
+				logout user 
+				user update profile 
+				reset password 
+				get user details 
+				get user list 
+				delete user
+				
+		
+		PRODUCT
+			add product models ==> DONE
+			add product serializers ==> DONE
+			add product view ==> Inprogress
+				get All product ==> DONE
+				get product details ==> DONE
+				search product 
+				get featured products
+				create product ==> DONE
+				update product ==> DONE
+				delete product ==> DONE
+				Upload image
+			configure static file setup and media uploads ==> DONE
+
+		ORDERS
+			setup django ORDERS app  ==> DONE
+			add ORDERS models  ==> DONE
+			add ORDERS serializers  ==> DONE
+			add ORDERS view  ==> DONE
+				user order list ==> DONE
+				add order items ==> DONE
+				admin order list ==> DONE
+				update order to delivery ==> DONE
+				update order to paid ==> DONE
+				get order details by user ==> DONE
+				get order details by admin  ==> DONE
+
+		CART
+			setup django CART app 
+			add CART models 
+			add CART serializers 
+			add CART view
+				View cart byUserId
+				add product to cart
+				remove product from cart
+				
+		WISHLIST
+			setup django WISHLIST app 
+			add WISHLIST models 
+			add WISHLIST serializers 
+			add WISHLIST view 
+		
+		Address
+			setup django Address app 
+			add Address models 
+			add Address serializers 
+			add Address view
+			
+		
+		Configure User Authentication and Authorization ==> DONE
+		add urls ==> Inprogress
+		add unit tests
+		Setup flake8==> DONE
+		Setup coverage
+		Setup black for complete django project ==> DONE
+		Setup django pylint 
+		setup docker file
+		setup docker compose
+		setup swagger api documentation
+		setup api logging
+		Setup git repo
+			Add repo on git account
+			add git ignore file
+			 git pre-commit hooks as per their convenience, here we are going to use lefthook to run flake8 every time someone makes a commit on the Django project.
+		Setup CICD GIT ACTIONS
+		Django-admin disabled admin page in production
+		Django configure setting.py for production/QA/Dev
