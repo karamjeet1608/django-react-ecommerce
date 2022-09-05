@@ -17,3 +17,18 @@ This repository holds the source code of ecommerce application developed using d
 
 ## Installation
 
+### Backend
+
+    ```bash
+    cd backend
+
+    pipenv shell
+
+    pip install -r requirements.txt
+
+    cd ecommerceAPIs
+
+    python manage.py runserver
+
+    ```
+
