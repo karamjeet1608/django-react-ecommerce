@@ -1,11 +1,19 @@
-django-react-ecommerce
+# Django-react-ecommerce
 
-To run the project 
-    backend:
-        follow the commands.txt file in the backend folder
-    frontend
-        cd to front folder
-        npm install
-        npm start
-# THIS PROJECT IS STILL UNDER-DEVELOPMENT AND HAVE SOME KNOWN ISSUES.
+This repository holds the source code of ecommerce application developed using django rest framework in the backend and react in the frontend. This project is still in development phase and has following functionalities and features
+
+User
+    Registration
+    Login
+    Logout
+
+Product
+    View product
+    Add product to cart
+    Delete product from cart
+
+Order
+    create order
+
+## Installation
 
