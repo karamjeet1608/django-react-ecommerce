@@ -19,7 +19,6 @@ This repository holds the source code of ecommerce application developed using d
 
 ### Backend
 
-    ```bash
     cd backend
 
     pipenv shell
@@ -30,5 +29,13 @@ This repository holds the source code of ecommerce application developed using d
 
     python manage.py runserver
 
-    ```
+### Frontend 
+
+    cd frontend
+
+    npm install
+
+    npm start
+
+
 

@@ -1,8 +1,29 @@
+frontend/node_modules
+/.pnp
+.pnp.js
+frontend/package-lock.json
+
+backend/flake8
+backend/commands.txt
+backend/Pipfile
+backend/Pipfile.lock
+backend/Things to do.txt
+
+
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
+
 *.py[cod]
 *$py.class
 
+
+/coverage
+
+/build
 # C extensions
 *.so
 
